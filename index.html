@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/index.js"></script>
+    <title>Agenda Multicapa</title>
+</head>
+<body onload="getContacts()">
+    
+    <div class="primary-container">
+        <h1>Tarea3 - Agenda Multicapa</h1>
+        
+        <div id="form-container" class="secondary-container">
+            <h2>Crear contacto</h2>
+            <form action="">
+                <input class="text-field" type="text" id="nombre" name="nombre" placeholder="Nombre">
+                <input class="text-field" type="text" id="apellido" name="apellido" placeholder="Apellido">
+                <input class="text-field" type="text" id="telefono" name="telefono" placeholder="Número de teléfono">
+                <button type="button" id="button" onsubmit="saveContact()" onclick="saveContact()">Guardar Contacto</button>
+            </form>
+        </div>
+
+        <div id="divContact" class="secondary-container">
+            <h2>Contactos</h2>
+        </div>
+    </div>
+</body>
+</html>

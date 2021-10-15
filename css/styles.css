@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #eee;
+    margin: 0 auto;
+}
+
+.primary-container{
+    width: 100%;
+
+}
+
+.secondary-container{
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    float: left;
+}
+
+#form-container{
+    text-align: center;
+}
+
+.text-field {
+    width: 50%;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#button {
+    width: 50%;
+    height: 30px;
+    font-size: 20;
+}
+#button:hover{
+    cursor: pointer;
+    color: navy;
+}
+
+#divContact {
+    overflow-y: scroll;
+}
